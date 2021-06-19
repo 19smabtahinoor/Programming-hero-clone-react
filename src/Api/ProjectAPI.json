@@ -1,0 +1,70 @@
+[
+{
+    "id":1,
+    "catergory": "HTML , CSS",
+    "image":"../../assets/project1.png",
+    "Title":"Personal Portfolio Website",
+    "Description":"জাস্ট ৩ দিনে বেসিক html, css আর git শিখে তোমার নিজের ছবি দিয়ে চমৎকার একটা ওয়েবসাইট বানিয়ে ফেলবে। দুনিয়ার যে কারো সাথে শেয়ার করতে পারবে।"
+},{
+    "id":2,
+    "catergory": "HTML , CSS ,Bootstrap",
+    "image":"../../assets/project2.png",
+    "Title":"Hot Gadget e-commerce Website",
+    "Description":"জাস্ট ৩ দিনে বেসিক html, css আর git শিখে তোমার নিজের ছবি দিয়ে চমৎকার একটা ওয়েবসাইট বানিয়ে ফেলবে। দুনিয়ার যে কারো সাথে শেয়ার করতে পারবে।"
+},{
+    "id":3,
+    "catergory": "React,Node,MongoDB,Heroku",
+    "image":"../../assets/project3.png",
+    "Title":"Create Agency",
+    "Description":"জাস্ট ৩ দিনে বেসিক html, css আর git শিখে তোমার নিজের ছবি দিয়ে চমৎকার একটা ওয়েবসাইট বানিয়ে ফেলবে। দুনিয়ার যে কারো সাথে শেয়ার করতে পারবে।"
+},{
+    "id":4,
+    "catergory": "HTML,CSS,Basic React,Debugging, Dev Tool",
+    "image":"../../assets/project4.png",
+    "Title":"Hard Rock Music",
+    "Description":"জাস্ট ৩ দিনে বেসিক html, css আর git শিখে তোমার নিজের ছবি দিয়ে চমৎকার একটা ওয়েবসাইট বানিয়ে ফেলবে। দুনিয়ার যে কারো সাথে শেয়ার করতে পারবে।"
+},
+{
+    "id":5,
+    "catergory": "React,React Router",
+    "image":"../../assets/project5.png",
+    "Title":"Volunteer Network",
+    "Description":"জাস্ট ৩ দিনে বেসিক html, css আর git শিখে তোমার নিজের ছবি দিয়ে চমৎকার একটা ওয়েবসাইট বানিয়ে ফেলবে। দুনিয়ার যে কারো সাথে শেয়ার করতে পারবে।"
+},{
+    "id":6,
+    "catergory": "React,React Router, Material UI",
+    "image":"../../assets/project6.png",
+    "Title":"Travel Guru",
+    "Description":"জাস্ট ৩ দিনে বেসিক html, css আর git শিখে তোমার নিজের ছবি দিয়ে চমৎকার একটা ওয়েবসাইট বানিয়ে ফেলবে। দুনিয়ার যে কারো সাথে শেয়ার করতে পারবে।"
+},{
+    "id":7,
+    "catergory": "React,React Router, Firbase,Heroku",
+    "image":"../../assets/project7.png",
+    "Title":"Red Onion (Restaurant Website)",
+    "Description":"জাস্ট ৩ দিনে বেসিক html, css আর git শিখে তোমার নিজের ছবি দিয়ে চমৎকার একটা ওয়েবসাইট বানিয়ে ফেলবে। দুনিয়ার যে কারো সাথে শেয়ার করতে পারবে।"
+},{
+    "id":8,
+    "catergory": "React,React Router, Firebase, Heroku",
+    "image":"../../assets/project8.png",
+    "Title":"Doctors Portal",
+    "Description":"জাস্ট ৩ দিনে বেসিক html, css আর git শিখে তোমার নিজের ছবি দিয়ে চমৎকার একটা ওয়েবসাইট বানিয়ে ফেলবে। দুনিয়ার যে কারো সাথে শেয়ার করতে পারবে।"
+},{
+    "id":9,
+    "catergory": "React,React Router, Material UI",
+    "image":"../../assets/project9.png",
+    "Title":"Power-x-gym(gym website)",
+    "Description":"জাস্ট ৩ দিনে বেসিক html, css আর git শিখে তোমার নিজের ছবি দিয়ে চমৎকার একটা ওয়েবসাইট বানিয়ে ফেলবে। দুনিয়ার যে কারো সাথে শেয়ার করতে পারবে।"
+},{
+    "id":10,
+    "catergory": "React,React Router,Google Map,Node,MongoDB",
+    "image":"../../assets/project10.png",
+    "Title":"Air CNC(Air bnb clone)",
+    "Description":"জাস্ট ৩ দিনে বেসিক html, css আর git শিখে তোমার নিজের ছবি দিয়ে চমৎকার একটা ওয়েবসাইট বানিয়ে ফেলবে। দুনিয়ার যে কারো সাথে শেয়ার করতে পারবে।"
+},{
+    "id":11,
+    "catergory": "React,React Router,Google Map,Node,Mongodb",
+    "image":"../../assets/project11.png",
+    "Title":"Urban Riders",
+    "Description":"জাস্ট ৩ দিনে বেসিক html, css আর git শিখে তোমার নিজের ছবি দিয়ে চমৎকার একটা ওয়েবসাইট বানিয়ে ফেলবে। দুনিয়ার যে কারো সাথে শেয়ার করতে পারবে।"
+}
+]

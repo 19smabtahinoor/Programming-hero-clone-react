@@ -6,7 +6,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height:5000px;
+  height:auto;
 }
 
 body::-webkit-scrollbar {
@@ -224,11 +224,12 @@ position: relative;
 top:10%;
 left:50%;
 transform: translate(-50%,-50%);
+
 }
 .about_course_heading .icon{
   color: #999295;
-  width:50px;
-  height:50px;
+  width:40px;
+  height:40px;
 }
 .about_course_heading .desc{
   color: #999295;
@@ -236,13 +237,13 @@ transform: translate(-50%,-50%);
 .about_course_first{
   cursor: pointer;
 }
-.about_course_first:focus{
-  border-bottom:4px solid #FF136F;
-}
-.about_course_heading .icon .activeIcon{
+
+.about_course_heading .activeicon{
   color: #FF136F;
+  width:50px;
+  height:50px;
 }
-.about_course_heading .desc .activeDesc{
+.about_course_heading .activedesc{
   color: #FF136F;
 }
 
@@ -250,8 +251,47 @@ transform: translate(-50%,-50%);
   border-bottom:4px solid #FF136F;
 }
 
+.content{
+  display:none;
+}
+.active_content{
+  display:block !important;
+}
 
 /* About Card end  */
+
+
+/* Project Start  */
+
+.swiper-container.swiper-container-coverflow.swiper-container-3d.swiper-container-initialized.swiper-container-horizontal.swiper-container-pointer-events.mySwiper {
+  padding: 57px !important;
+}
+
+.projects_section{
+  background: #F5F7FF;
+}
+/* Project End  */
+
+/* Testimonial Start  */
+.testimonial_section{
+  background: #F5F7FF;
+}
+
+.swiper-container.swiper-container-initialized.swiper-container-horizontal.swiper-container-pointer-events.mySwiper {
+  padding: 29px !important;
+  padding-bottom: 57px !important;
+  padding-top: 59px !important;
+}
+/* Testimonial End  */
+
+
+/* Footer Start   */
+.footer{
+  background:#6129ED;
+}
+/* Footer End  */
+
+
 
 /* Responsive Designing  */
 @media screen and (max-width:500px) {

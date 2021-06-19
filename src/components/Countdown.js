@@ -51,7 +51,7 @@ function Countdown() {
     useEffect(() => {
         startTimer()
         return () => {
-            clearInterval(interval.current)
+            clearInterval(interval)
         }
     })
     return (
@@ -91,18 +91,18 @@ function Countdown() {
 
                         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 py-9 place-items-center">
                             <div>
-                                <h5 className="banglafont font-semibold text-md"><i class="fas fa-calendar-week one"></i>রেজিস্ট্রেশন শুরু: <strong>জুন ১০, ২০২১ (বৃহস্পতিবার)</strong></h5>
-                                <h5 className="banglafont font-semibold text-md"><i class="far fa-bell two"></i>ব্যাচের ওরিয়েন্টশন: <strong>জুন ২৮, ২০২১ (সোমবার)</strong></h5>
+                                <h5 className="banglafont font-semibold text-sm"><i class="fas fa-calendar-week one"></i>রেজিস্ট্রেশন শুরু: <strong>জুন ১০, ২০২১ (বৃহস্পতিবার)</strong></h5>
+                                <h5 className="banglafont font-semibold text-sm"><i class="far fa-bell two"></i>ব্যাচের ওরিয়েন্টশন: <strong>জুন ২৮, ২০২১ (সোমবার)</strong></h5>
                             </div>
                             <div>
-                                <h5 className="banglafont font-semibold text-md"><i class="far fa-bookmark three"></i> রেজিস্ট্রেশন শেষ: <strong>জুন ২৪, ২০২১ (বৃহস্পতিবার)</strong></h5>
-                                <h5 className="banglafont font-semibold text-md"><i class="fas fa-tv four"></i>ক্লাস শুরু: <strong>জুলাই ১, ২০২১ (বৃহস্পতিবার)</strong></h5>
+                                <h5 className="banglafont font-semibold text-sm"><i class="far fa-bookmark three"></i> রেজিস্ট্রেশন শেষ: <strong>জুন ২৪, ২০২১ (বৃহস্পতিবার)</strong></h5>
+                                <h5 className="banglafont font-semibold text-sm"><i class="fas fa-tv four"></i>ক্লাস শুরু: <strong>জুলাই ১, ২০২১ (বৃহস্পতিবার)</strong></h5>
                             </div>
                         </div>
 
                         <div className="enroll_ads flex flex-col md:flex-col lg:flex-row xl:flex-row items-center py-3 lg:py-2 xl:py-2" >
                             <div className="flex flex-grow items-center">
-                                <span className=" banglafont text-white text-xl lg:text-2xl xl:text-2xl mx-5 text-center">তুমি ৪র্থ ব্যাচে এনরোল করতে আগ্রহি হলে, ঝাঁপিয়ে পড়ো</span>
+                                <span className=" banglafont text-white text-lg lg:text-2xl xl:text-2xl mx-5 text-center">তুমি ৪র্থ ব্যাচে এনরোল করতে আগ্রহি হলে, ঝাঁপিয়ে পড়ো</span>
                             </div>
                             <div className="">
                                 <Button className="enroll_button2 px-5 py-3 mx-3" endIcon={<DoubleArrowIcon />}>Enroll Now</Button>
