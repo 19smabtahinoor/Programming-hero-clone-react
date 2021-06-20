@@ -65,24 +65,24 @@ function Countdown() {
                             <h1 className="countdown_title text-center text-4xl font-black text-black py-8">রেজিস্ট্রেশন শেষ হতে আর বাকি</h1>
 
                             {/* Countdown Timer Start */}
-                            <div className="flex items-center justify-center space-x-7 ">
+                            <div className="flex items-center justify-center space-x-5 ">
                                 <div className="flex flex-col">
-                                    <h1 className="countDown_time_text font-semibold text-4xl md:text-6xl lg:text-6xl  xl:text-6xl  p-3 ">{days}</h1>
+                                    <h1 className="countDown_time_text font-semibold text-2xl md:text-6xl lg:text-6xl  xl:text-6xl  p-3 ">{days}</h1>
                                     <small className="block text-center text-lg text-gray-500">Days</small>
                                 </div>
 
                                 <div className="flex flex-col">
-                                    <h1 className="countDown_time_text font-bold text-4xl md:text-6xl lg:text-6xl  xl:text-6xl p-3 ">{hours}</h1>
+                                    <h1 className="countDown_time_text font-bold text-2xl md:text-6xl lg:text-6xl  xl:text-6xl p-3 ">{hours}</h1>
                                     <small className="block text-center text-lg  text-gray-500">Hours</small>
                                 </div>
 
                                 <div className="flex flex-col" >
-                                    <h1 className="countDown_time_text font-bold text-4xl md:text-6xl lg:text-6xl  xl:text-6xl p-3 ">{minutes}</h1>
+                                    <h1 className="countDown_time_text font-bold text-2xl md:text-6xl lg:text-6xl  xl:text-6xl p-3 ">{minutes}</h1>
                                     <small className="block text-center text-lg  text-gray-500">Minutes</small>
                                 </div>
 
                                 <div className="flex flex-col">
-                                    <h1 className="countDown_time_text font-bold text-4xl md:text-6xl lg:text-6xl  xl:text-6xl p-3 ">{seconds}</h1>
+                                    <h1 className="countDown_time_text font-bold text-2xl md:text-6xl lg:text-6xl  xl:text-6xl p-3 ">{seconds}</h1>
                                     <small className="block text-center text-lg  text-gray-500">Seconds</small>
                                 </div>
                             </div>

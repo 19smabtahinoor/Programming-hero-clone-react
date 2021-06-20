@@ -9,11 +9,11 @@ import "swiper/components/pagination/pagination.min.css"
 
 // import Swiper core and required modules
 import SwiperCore, {
-    Pagination
+    Pagination, Autoplay
 } from 'swiper/core';
 
 // install Swiper modules
-SwiperCore.use([Pagination]);
+SwiperCore.use([Pagination, Autoplay]);
 
 function Testimonial() {
     return (
@@ -23,7 +23,23 @@ function Testimonial() {
                     <h1 className="banglafont text-center text-4xl font-black text-black pt-8">স্টুডেন্টদের কোর্স সম্পর্কে মতামত</h1>
                     <Swiper slidesPerView={2} spaceBetween={5} freeMode={false} pagination={{
                         "clickable": true
-                    }} className="mySwiper">
+                    }}
+                    breakpoints={{
+                        // when window width is >= 640px
+                        500: {
+                          slidesPerView: 1,
+                          
+                        },
+                        1024 : {
+                            slidesPerView:2
+                        } 
+                    }}
+                        loop={true}
+                        autoplay={{
+                            delay: 2000,
+                            disableOnInteraction: false
+                        }}
+                        className="mySwiper">
                         <div className="">
                             {TestimonialAPI.map((element) => {
                                 return (
