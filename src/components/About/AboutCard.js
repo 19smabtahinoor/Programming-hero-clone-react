@@ -1,11 +1,11 @@
 import React from 'react'
 
-function AboutCard({key,image,title,description}) {
+function AboutCard({ key, image, title, description }) {
     return (
         <>
             <div className="bg-white shadow-xl rounded-xl p-7 box-border m-3" key={key}>
                 <div className="pb-4">
-                    <img className="about_card_image" src={image} alt="cardImage"/>
+                    <img className="about_card_image" src={image} alt="cardImage" />
                 </div>
 
                 <div className="">

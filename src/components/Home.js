@@ -1,17 +1,13 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import { Row } from 'react-bootstrap'
 import CarouselItem from './CarouselItem'
 
 function Home() {
     return (
         <>
-            <section className="home pt-9">
+            <section className="home pt-48">
                 <Container>
-                    <Row>
-                        <CarouselItem />
-                    </Row>
-
+                    <CarouselItem />
                 </Container>
             </section>
         </>

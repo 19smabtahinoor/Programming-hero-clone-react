@@ -24,21 +24,22 @@ function Testimonial() {
                     <Swiper slidesPerView={2} spaceBetween={5} freeMode={false} pagination={{
                         "clickable": true
                     }}
-                    breakpoints={{
-                        // when window width is >= 640px
-                        500: {
-                          slidesPerView: 1,
-                          
-                        },
-                        1024 : {
-                            slidesPerView:2
-                        } 
-                    }}
+                        breakpoints={{
+                            // when window width is >= 640px
+                            500: {
+                                slidesPerView: 1,
+
+                            },
+                            1024: {
+                                slidesPerView: 2
+                            }
+                        }}
                         loop={true}
                         autoplay={{
                             delay: 2000,
                             disableOnInteraction: false
                         }}
+                        grabCursor={true}
                         className="mySwiper">
                         <div className="">
                             {TestimonialAPI.map((element) => {

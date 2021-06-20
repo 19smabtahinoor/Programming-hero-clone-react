@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height:auto;
+  height: auto;
+  width: 100%;
+  overflow-x:hidden;
 }
 
 body::-webkit-scrollbar {
@@ -14,28 +16,32 @@ body::-webkit-scrollbar {
 }
 
 .banglafont {
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
 }
 
 /* Header Style Start  */
 .header {
-  background: #6129ED;
+  background: #6129ed;
   position: fixed !important;
   top: 0 !important;
+  width:100% !important;
   z-index: 999 !important;
-  width: 100% !important;
-  transition:0.5s !important;
+  transition: 0.5s !important;
 }
-.activeHeader{
-  background:#6047EC;
 
+.activeHeader {
+  background: #6047ec;
 }
+
 .header_logo {
   height: 35px;
 }
 
 .header_btn {
-  background-image: linear-gradient(to right, #FF257B 0%, #FF2C7F 51%, #FF3F8B 100%);
+  background-image: linear-gradient(to right,
+      #ff257b 0%,
+      #ff2c7f 51%,
+      #ff3f8b 100%);
   text-align: center;
   text-transform: capitalize !important;
   transition: 0.5s;
@@ -43,7 +49,6 @@ body::-webkit-scrollbar {
   color: white;
   display: block;
   border-radius: 50px !important;
-
 }
 
 .header_btn:hover {
@@ -64,7 +69,6 @@ body::-webkit-scrollbar {
   color: purple !important;
 }
 
-
 button.navbar-toggler.collapsed {
   background: white;
   border: none;
@@ -76,13 +80,11 @@ button.navbar-toggler {
   outline: none !important;
 }
 
-
 /* Header Style End  */
-
 
 /* Home page Style Start */
 .home {
-  background: #6129ED;
+  background: #6129ed;
   height: auto;
 }
 
@@ -92,24 +94,26 @@ button.navbar-toggler {
   user-select: none;
   object-fit: contain;
   box-sizing: border-box;
-
 }
 
 .slide_heading {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   user-select: none;
   line-height: 1.2;
 }
 
 .slide_description {
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
   user-select: none;
   line-height: 1.5;
   font-size: 18px !important;
 }
 
 .enroll_button {
-  background-image: linear-gradient(to right, #FF257B 0%, #FF2C7F 51%, #FF3F8B 100%);
+  background-image: linear-gradient(to right,
+      #ff257b 0%,
+      #ff2c7f 51%,
+      #ff3f8b 100%);
   text-align: center;
   text-transform: capitalize !important;
   transition: 0.5s;
@@ -117,10 +121,9 @@ button.navbar-toggler {
   color: #fff !important;
   display: block;
   border-radius: 50px !important;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-size: 16px !important;
   margin-top: 15px !important;
-
 }
 
 .enroll_button:hover {
@@ -130,17 +133,18 @@ button.navbar-toggler {
   text-decoration: none;
 }
 
-
 /* Home page Style End  */
 
 /* Countdown Start  */
 .countdown_title {
-  font-family: 'Hind Siliguri', sans-serif;
-
+  font-family: "Hind Siliguri", sans-serif;
 }
 
 .countDown_time_text {
-  background-image: linear-gradient(to bottom, #FF257B 0%, #FF2C7F 51%, #FF3F8B 100%);
+  background-image: linear-gradient(to bottom,
+      #ff257b 0%,
+      #ff2c7f 51%,
+      #ff3f8b 100%);
   text-align: center;
   text-transform: capitalize !important;
   transition: 0.5s;
@@ -148,9 +152,8 @@ button.navbar-toggler {
   color: #fff !important;
   display: block;
   border-radius: 10px !important;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
 }
-
 
 i {
   text-align: center;
@@ -185,7 +188,10 @@ i {
 }
 
 .enroll_button2 {
-  background-image: linear-gradient(to right, #FF257B 0%, #FF2C7F 51%, #FF3F8B 100%);
+  background-image: linear-gradient(to right,
+      #ff257b 0%,
+      #ff2c7f 51%,
+      #ff3f8b 100%);
   text-align: center;
   text-transform: capitalize !important;
   transition: 0.5s;
@@ -193,7 +199,7 @@ i {
   color: #fff !important;
   display: block;
   border-radius: 50px !important;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-size: 17px !important;
 }
 
@@ -210,7 +216,6 @@ i {
 .course_image {
   width: 30px;
   height: 30px;
-
 }
 
 .course_box {
@@ -221,53 +226,56 @@ i {
 
 /* About Card Start  */
 
-.about_card_image{
-  width:80px;
-  height:80px;
+.about_card_image {
+  width: 80px;
+  height: 80px;
 }
 
-.about_course_heading{
-width:500px;
-position: relative;
-top:10%;
-left:50%;
-transform: translate(-50%,-50%);
+.about_course_heading {
+  width: 500px;
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-}
-.about_course_heading .icon{
+.about_course_heading .icon {
   color: #999295;
-  width:40px;
-  height:40px;
+  width: 40px;
+  height: 40px;
 }
-.about_course_heading .desc{
+
+.about_course_heading .desc {
   color: #999295;
 }
-.about_course_first{
+
+.about_course_first {
   cursor: pointer;
 }
 
-.about_course_heading .activeicon{
-  color: #FF136F;
-  width:50px;
-  height:50px;
-}
-.about_course_heading .activedesc{
-  color: #FF136F;
+.about_course_heading .activeicon {
+  color: #ff136f;
+  width: 50px;
+  height: 50px;
 }
 
-.activeDiv{
-  border-bottom:4px solid #FF136F;
+.about_course_heading .activedesc {
+  color: #ff136f;
 }
 
-.content{
-  display:none;
+.activeDiv {
+  border-bottom: 4px solid #ff136f;
 }
-.active_content{
-  display:block !important;
+
+.content {
+  display: none;
+}
+
+.active_content {
+  display: block !important;
 }
 
 /* About Card end  */
-
 
 /* Project Start  */
 
@@ -275,14 +283,15 @@ transform: translate(-50%,-50%);
   padding: 57px !important;
 }
 
-.projects_section{
-  background: #F5F7FF;
+.projects_section {
+  background: #f5f7ff;
 }
+
 /* Project End  */
 
 /* Testimonial Start  */
-.testimonial_section{
-  background: #F5F7FF;
+.testimonial_section {
+  background: #f5f7ff;
 }
 
 .swiper-container.swiper-container-initialized.swiper-container-horizontal.swiper-container-pointer-events.mySwiper {
@@ -290,13 +299,14 @@ transform: translate(-50%,-50%);
   padding-bottom: 57px !important;
   padding-top: 59px !important;
 }
+
 /* Testimonial End  */
 
-
 /* Footer Start   */
-.footer{
-  background:#6129ED;
+.footer {
+  background: #6129ed;
 }
+
 /* Footer End  */
 
 .swiper-container {
@@ -304,7 +314,7 @@ transform: translate(-50%,-50%);
 }
 
 /* Responsive Designing  */
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
 
   /* Header Start  */
   .menus {
@@ -326,29 +336,34 @@ transform: translate(-50%,-50%);
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
-    margin-top:5px !important;
+    margin-top: 5px !important;
   }
+
   .header_buttons.flex.flex-row.flex-grow.items-center.space-x-3 button {
     margin-top: 12px;
-}
+  }
+
   /* Header End  */
   /* Home page Start  */
   .home_page_image {
     width: 300px !important;
   }
+
   .about_course_heading {
     width: 397px;
     position: relative;
     top: 10%;
     left: 50%;
-    transform: translate(-50%,-50%);
-}
-.about_course_heading .desc{
-  font-size:15px !important;
-}
-.about_course_heading .activedesc{
-  font-size:15px !important;
-}
+    transform: translate(-50%, -50%);
+  }
+
+  .about_course_heading .desc {
+    font-size: 15px !important;
+  }
+
+  .about_course_heading .activedesc {
+    font-size: 15px !important;
+  }
 
   /* Home page End  */
 
@@ -359,28 +374,26 @@ transform: translate(-50%,-50%);
   }
 }
 
-
-
-
-@media screen and (max-width:768px) {
-
+@media screen and (max-width: 768px) {
   .course_box {
     width: 100%;
     margin: auto;
   }
+
   .header_buttons {
     justify-content: center !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
-    margin-top:5px !important;
+    margin-top: 5px !important;
   }
+
   .header_buttons.flex.flex-row.flex-grow.items-center.space-x-3 button {
     margin-top: 12px;
-}
+  }
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width: 992px) {
   .course_box {
     width: 100%;
     margin: auto;
@@ -390,15 +403,16 @@ transform: translate(-50%,-50%);
     width: 100%;
     object-fit: contain;
   }
+
   .header_buttons {
     justify-content: center !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
-    margin-top:5px !important;
+    margin-top: 5px !important;
   }
+
   .header_buttons.flex.flex-row.flex-grow.items-center.space-x-3 button {
     margin-top: 12px;
-}
-
+  }
 }

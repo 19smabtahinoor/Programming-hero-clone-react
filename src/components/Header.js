@@ -1,20 +1,20 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import { Button } from '@material-ui/core'
 import { Navbar } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 
 function Header() {
-    const [changeHeader,setChangeHeader] = useState(false)
+    const [changeHeader, setChangeHeader] = useState(false)
 
     const handleHeader = () => {
-        if(window.scrollY >= 80){
+        if (window.scrollY >= 80) {
             setChangeHeader(true)
-        }else{
+        } else {
             setChangeHeader(false)
         }
     }
-    window.addEventListener("scroll",handleHeader)
+    window.addEventListener("scroll", handleHeader)
     return (
         <>
             <Navbar expand="lg" className={changeHeader ? "activeHeader header" : "header"}>
