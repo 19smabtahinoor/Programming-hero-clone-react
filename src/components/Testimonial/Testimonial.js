@@ -29,7 +29,7 @@ function Testimonial() {
                                 return (
                                     <SwiperSlide>
                                         <TestimonialCard
-                                            key={element.key}
+                                            key={element.id}
                                             image={element.image}
                                             name={element.name}
                                             comment={element.comment}

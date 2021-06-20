@@ -5,7 +5,7 @@ function CourseItem({ Content, key }) {
         <>
             <div className="flex px-5 CourseItem_1" key={key}>
                 <div className="">
-                    <i class="fa fa-check bg-red-400 text-white" aria-hidden="true"></i>
+                    <i className="fa fa-check bg-red-400 text-white" aria-hidden="true"></i>
                 </div>
 
                 <div className="">

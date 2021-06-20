@@ -47,7 +47,7 @@ function Countdown() {
             }
         }, 1000)
     }
-    console.log(hours)
+
     useEffect(() => {
         startTimer()
         return () => {
@@ -91,12 +91,12 @@ function Countdown() {
 
                         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 py-9 place-items-center">
                             <div>
-                                <h5 className="banglafont font-semibold text-sm"><i class="fas fa-calendar-week one"></i>রেজিস্ট্রেশন শুরু: <strong>জুন ১০, ২০২১ (বৃহস্পতিবার)</strong></h5>
-                                <h5 className="banglafont font-semibold text-sm"><i class="far fa-bell two"></i>ব্যাচের ওরিয়েন্টশন: <strong>জুন ২৮, ২০২১ (সোমবার)</strong></h5>
+                                <h5 className="banglafont font-semibold text-sm"><i className="fas fa-calendar-week one"></i>রেজিস্ট্রেশন শুরু: <strong>জুন ১০, ২০২১ (বৃহস্পতিবার)</strong></h5>
+                                <h5 className="banglafont font-semibold text-sm"><i className="far fa-bell two"></i>ব্যাচের ওরিয়েন্টশন: <strong>জুন ২৮, ২০২১ (সোমবার)</strong></h5>
                             </div>
                             <div>
-                                <h5 className="banglafont font-semibold text-sm"><i class="far fa-bookmark three"></i> রেজিস্ট্রেশন শেষ: <strong>জুন ২৪, ২০২১ (বৃহস্পতিবার)</strong></h5>
-                                <h5 className="banglafont font-semibold text-sm"><i class="fas fa-tv four"></i>ক্লাস শুরু: <strong>জুলাই ১, ২০২১ (বৃহস্পতিবার)</strong></h5>
+                                <h5 className="banglafont font-semibold text-sm"><i className="far fa-bookmark three"></i> রেজিস্ট্রেশন শেষ: <strong>জুন ২৪, ২০২১ (বৃহস্পতিবার)</strong></h5>
+                                <h5 className="banglafont font-semibold text-sm"><i className="fas fa-tv four"></i>ক্লাস শুরু: <strong>জুলাই ১, ২০২১ (বৃহস্পতিবার)</strong></h5>
                             </div>
                         </div>
 

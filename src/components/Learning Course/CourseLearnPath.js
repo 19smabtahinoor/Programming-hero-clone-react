@@ -22,7 +22,7 @@ function CourseLearnPath() {
 
                     <div className=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-3">
                         {/* Course Info Start  */}
-                        <div className="course_box col-span-1 bg-white shadow-2xl rounded-xl  p-8">
+                        <div className="course_box col-span-1 bg-white shadow-2xl rounded-xl  p-8" data-aos="fade-up-right" data-aos-duration="1000">
                             <div className="">
                                 <img className="course_poster rounded-xl" src="../assets/coursePoster.png" alt="Course Poster" />
 
@@ -51,17 +51,17 @@ function CourseLearnPath() {
                                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
                                     <div className="flex items-center space-x-1 py-2">
                                         <img className="course_image" src="../assets/video.png" alt="Video" />
-                                        <span classname="text-sm">660 Videos</span>
+                                        <span className="text-sm">660 Videos</span>
                                     </div>
 
                                     <div className="flex   items-center space-x-1 py-2">
                                         <img className="course_image" src="../assets/quizes.png" alt="Quizes" />
-                                        <span classname="text-sm">300 Quizes</span>
+                                        <span className="text-sm">300 Quizes</span>
                                     </div>
 
                                     <div className="flex items-center space-x-1 py-2">
                                         <img className="course_image" src="../assets/assignment.png" alt="Assignment" />
-                                        <span classname="text-sm"> Assignment</span>
+                                        <span className="text-sm"> Assignment</span>
                                     </div>
                                 </div>
 
@@ -90,24 +90,32 @@ function CourseLearnPath() {
                         {/* Course Info End  */}
 
                         {/* Course Description 1st Column Start */}
-                        <div className="col-span-1 pt-9">
-                            {CourseInfoAPI1.map((element) => (
-                                <CourseItem
-                                    key={element.id}
-                                    Content={element.content}
-                                />
-                            ))}
+                        <div className="col-span-1 pt-9" data-aos="fade-up-left" data-aos-duration="1000">
+                            {CourseInfoAPI1.map((element, index) => {
+                                return (
+                                    <>
+                                        <CourseItem
+                                            key={index}
+                                            Content={element.content}
+                                        />
+                                    </>
+                                )
+                            })}
                         </div>
                         {/* Course Description 1st Column end */}
 
                         {/* Course description 2nd Column Start  */}
-                        <div className="col-span-1 pt-9">
-                            {CourseInfoAPI2.map((element) => (
-                                <CourseItem2
-                                    key={element.id}
-                                    Content={element.content}
-                                />
-                            ))}
+                        <div className="col-span-1 pt-9" data-aos="fade-up-left" data-aos-duration="1000">
+                            {CourseInfoAPI2.map((element, index) => {
+                                return (
+                                    <>
+                                        <CourseItem2
+                                            key={element.id}
+                                            Content={element.content}
+                                        />
+                                    </>
+                                )
+                            })}
                         </div>
                         {/* Course description 2nd Column End  */}
                     </div>
