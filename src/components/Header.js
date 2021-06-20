@@ -63,11 +63,6 @@ function Header() {
                                 </div>
                                 </Nav>
                             )}
-                            
-
-                            
-                       
-
 
 
                     </Navbar.Collapse>
