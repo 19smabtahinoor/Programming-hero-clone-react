@@ -1,13 +1,23 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { Button } from '@material-ui/core'
 import { Navbar } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 
 function Header() {
+    const [changeHeader,setChangeHeader] = useState(false)
+
+    const handleHeader = () => {
+        if(window.scrollY >= 80){
+            setChangeHeader(true)
+        }else{
+            setChangeHeader(false)
+        }
+    }
+    window.addEventListener("scroll",handleHeader)
     return (
         <>
-            <Navbar expand="lg" className="header">
+            <Navbar expand="lg" className={changeHeader ? "activeHeader header" : "header"}>
                 <Container className="px-4 py-2">
                     <div className="flex flex-row flex-grow">
                         <img className="header_logo" src="./assets/mainlogo.png" alt="header logo" />
