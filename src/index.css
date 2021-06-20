@@ -20,8 +20,16 @@ body::-webkit-scrollbar {
 /* Header Style Start  */
 .header {
   background: #6129ED;
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 999 !important;
+  width: 100% !important;
+  transition:0.5s !important;
 }
+.activeHeader{
+  background:#6047EC;
 
+}
 .header_logo {
   height: 35px;
 }
@@ -343,19 +351,19 @@ transform: translate(-50%,-50%);
 }
 
   /* Home page End  */
+
+  .swiper-container.swiper-container-initialized.swiper-container-horizontal.swiper-container-pointer-events.mySwiper {
+    padding: 29px !important;
+    padding-bottom: 120px !important;
+    padding-top: 111px !important;
+  }
 }
 
 
-/* @media screen and (max-width: 640px) {
-  .swiper-container {
-    width: 640px;
-  }
-} */
+
 
 @media screen and (max-width:768px) {
-  /* .swiper-container {
-    width: 768px !important;
-  } */
+
   .course_box {
     width: 100%;
     margin: auto;
