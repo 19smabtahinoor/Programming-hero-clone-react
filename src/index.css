@@ -79,7 +79,11 @@ button.navbar-toggler {
   background: white;
   outline: none !important;
 }
-
+.profile_Menu {
+    position: absolute;
+    top: 110%;
+    right: 6%;
+}
 /* Header Style End  */
 
 /* Home page Style Start */

@@ -6,6 +6,7 @@ import CourseInfoAPI1 from '../../Api/CourseInfoAPI1.json'
 import CourseInfoAPI2 from '../../Api/CourseInfoAPI2.json'
 import CourseItem from './CourseItem'
 import CourseItem2 from './CourseItem2'
+import { NavLink } from 'react-router-dom';
 
 function CourseLearnPath() {
 
@@ -70,7 +71,9 @@ function CourseLearnPath() {
                                 </div>
 
                                 <div className="w-full">
+                                    <NavLink to="/checkout" className="text-decoration-none">
                                     <Button onClick={handleEnroll} className="w-full enroll_button2 py-3" endIcon={<DoubleArrowIcon />}>Enroll Now</Button>
+                                    </NavLink>
                                 </div>
 
                                 <div className="grid grid-cols-1 py-4">

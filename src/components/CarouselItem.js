@@ -3,6 +3,7 @@ import { Button } from '@material-ui/core'
 import DoubleArrowIcon from '@material-ui/icons/DoubleArrow';
 import { Carousel } from 'react-bootstrap'
 import CarouselApi from '../Api/CarouselAPI.json'
+import { NavLink } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -20,8 +21,9 @@ function CarouselItem() {
                                 <h1 className="slide_heading text-white text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-semibold  md:font-semibold lg:font-bold xl:font-bold pb-3">{element.Title}</h1>
 
                                 <p className="slide_description text-white text-md py-3">{element.Description}</p>
-
-                                <Button className="enroll_button px-5 py-3" endIcon={<DoubleArrowIcon />}>Enroll Now</Button>
+                                <NavLink to="/checkout" className="text-decoration-none">
+                                    <Button className="enroll_button px-5 py-3" endIcon={<DoubleArrowIcon />}>Enroll Now</Button>
+                                </NavLink>
                             </div>
 
                             <div className="col-span-1" data-aos="fade-left" data-aos-duration="500">

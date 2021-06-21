@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react'
 import { Button } from '@material-ui/core'
 import DoubleArrowIcon from '@material-ui/icons/DoubleArrow';
 import { Container } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom';
 
 function Countdown() {
     const [days, setDays] = useState(['00'])
@@ -105,7 +106,9 @@ function Countdown() {
                                 <span className=" banglafont text-white text-lg lg:text-2xl xl:text-2xl mx-5 text-center">তুমি ৪র্থ ব্যাচে এনরোল করতে আগ্রহি হলে, ঝাঁপিয়ে পড়ো</span>
                             </div>
                             <div className="">
-                                <Button className="enroll_button2 px-5 py-3 mx-3" endIcon={<DoubleArrowIcon />}>Enroll Now</Button>
+                                <NavLink to="/checkout" className="text-decoration-none">
+                                    <Button className="enroll_button2 px-5 py-3 mx-3" endIcon={<DoubleArrowIcon />}>Enroll Now</Button>
+                                </NavLink>
                             </div>
                         </div>
                     </div>
