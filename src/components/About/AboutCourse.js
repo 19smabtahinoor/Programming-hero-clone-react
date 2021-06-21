@@ -35,7 +35,7 @@ function AboutCourse() {
 
                     </div>
 
-                    <div className={toggleTabs === 1 ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 inline-flex " : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 hidden"} data-aos="flip-left" data-aos-duration="500">
+                    <div className={toggleTabs === 1 ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 inline-flex " : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 hidden"}>
                         {AboutAPI.map((element) => (
                             <AboutCard
                                 key={element.id}

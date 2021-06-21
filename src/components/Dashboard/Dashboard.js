@@ -1,9 +1,12 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 
 function Dashboard() {
     return (
         <>
-            <h1 className="pt-24">Dashboard</h1>
+            <Container>
+                <h1 className="pt-24">My Classes</h1>
+            </Container>
         </>
     )
 }
